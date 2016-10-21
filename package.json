@@ -18,5 +18,11 @@
     "treinamento"
   ],
   "author": "Guilherme Costa",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.10"
+  }
 }
