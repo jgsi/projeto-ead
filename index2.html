@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Atual - Cursos Online</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<style type="text/css">
+    .negrito {
+      font-weight: bold;
+    }
+    @media (min-width: 769px) {
+      .btn-responsive {
+        padding: 15px 30px;
+        font-size:90%;
+        line-height: 1.2;
+      }
+    }
+		.navbar-header button {
+			color: #fff;
+		}
+		.fullscreen {
+	      width:100%;
+	  }
+	  main {
+      padding-top:50px;
+    }
+    .max-left {
+    	left: 0%;
+    	right: auto;
+    }
+    .max-right {
+    	left: auto;
+    	right: 0%;
+    }
+    .max-bottom {
+      bottom: 0;
+      top: auto;
+      padding-bottom: 5px;
+    }
+    footer {
+		background:#333;
+    color:#fff;
+    padding:20px 0;
+    text-align:center;
+		}
+		.texto-destaque {
+			color: #000;
+			line-height: : 1.1;
+			font-weight: bold;
+			font-size: 120%;
+		}
+		.simbolo-curso {
+			width: auto;
+			height: auto;
+			max-width: 200px;
+			max-height: 80px;
+		}
+		.grade-cursos {
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+  			<div class="navbar-header">
+  				<a href="#home" class="navbar-brand">ATUAL</a>
+  				<button class="navbar-toggle" type="button"
+  				data-target=".navbar-collapse" data-toggle="collapse" >Menu</button>
+  			</div>
+  			<div class="collapse navbar-collapse">
+  				<ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                Cursos
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Área Administrativa</a></li>
+                <li><a href="#">Área Contábil</a></li>
+                <li><a href="#">Área Jurídica</a></li>
+              </ul>
+            </li>
+  					<li><a href="#consultoria">Consultoria</a></li>
+  					<li><a href="#sobreNos">Sobre nós</a></li>
+  				</ul>
+          <div class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="#login">Login</a></li>
+                <li><a href="#matricular">Matricule-se</a></li>
+            </ul>
+          </div>
+      </div>
+			<!--				<form class="navbar-form navbar-right">
+								<div class="form-group">
+									<input type="text" class="form-control" style="width: 20em;" placeholder="Digite o que você procura" />
+								</div>
+								<input class="btn btn-default"  type="submit" value="Buscar" />
+							</form>
+			-->
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="grade-cursos">
+					<div class="row">
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="img/administrativo.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Administrativa</span>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="img/contabilidade.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Contábil</span>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p class="text-center">
+								<img alt="Simbolo Juridico" src="img/juridico.jpg"
+								class="simbolo-curso"/>
+								Cursos na área <span class="texto-destaque">Jurídica </span>
+							</p>
+						</div>
+					</div>
+			</div>
+	        <!-- <div class="row" id="home">
+      				<div id="carousel" class="carousel slide" data-ride="carousel">
+      				    <div class="carousel-inner" role="listbox" >
+      				        <div class="item active">
+      				            <img src="img/banner1.jpg" alt="Curso auxiliar administrativo" class="fullscreen" />
+      				            <div class="carousel-caption max-bottom"> -->
+            							    <!-- <h3>Curso Auxiliar Administrativo</h3> -->
+            							    <!-- <h4>
+                                <a href="#matricular-curso-auxiliar-administrativo"
+                                  class="btn btn-warning negrito btn-responsive">
+                                  Fazer matrícula
+                                </a> -->
+                                <!-- Aqui você encontra os melhores cursos do mercado. -->
+                              <!-- </h4>
+            							</div>
+      				        </div>
+      				        <div class="item">
+      				            <img src="img/banner2.jpg" alt="Curso auxiliar de escritório" class="fullscreen" />
+      				            <div class="carousel-caption max-bottom"> -->
+      							          <!-- <h3>Curso Auxiliar de Escritório</h3> -->
+      							          <!-- <h4>
+                                <a href="#matricular-curso-auxiliar-escritorio"
+                                class="btn btn-warning  negrito btn-responsive">
+                                  Fazer matrícula
+                                </a> -->
+                                <!-- Aqui você encontra os melhores cursos do mercado. -->
+                              <!-- </h4>
+      							      </div>
+      				        </div>
+                      <div class="item">
+                          <img src="img/banner3.jpg" alt="Curso de assistente contábil" class="fullscreen" />
+                          <div class="carousel-caption max-bottom"> -->
+                              <!-- <h3>Curso de Assistente Contábil</h3> -->
+                              <!-- <h4>
+                                <a href="#matricular-curso-assistente-contabil"
+                                class="btn btn-warning btn-responsive negrito">
+                                  Fazer matrícula
+                                </a> -->
+                                <!-- Aqui você encontra os melhores cursos do mercado. -->
+                              <!-- </h4>
+                          </div>
+                      </div>
+
+      				    <a href="#carousel" class="carousel-control max-left" data-slide="prev">
+      				             <span class="glyphicon glyphicon-chevron-left"></span>
+      				    </a>
+      				    <a href="#carousel" class="carousel-control max-right" data-slide="next">
+      				        <span class="glyphicon glyphicon-chevron-right"></span>
+      				    </a>
+      				</div> -->
+
+	            <div class="col-xs-12 col-sm-3">
+			        <div>
+			            <h3 class="text-center">Categorias</h3>
+			        </div>
+			        <ul class="list-group">
+			            <li class="list-group-item"><a href="#">Camisetas Masculinas</a></li>
+			            <li class="list-group-item"><a href="#">Camisetas Femininas</a></li>
+			            <li class="list-group-item"><a href="#">Roupas de Inverno</a></li>
+			            <li class="list-group-item"><a href="#">Roupas de Verão</a></li>
+			        </ul>
+			    </div>
+				<div class="col-xs-12 col-sm-9" >
+					<div id="novidades">
+						<h3 class="text-center">Novidades</h3>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-azul.png" alt="Camisa azul importada" />
+
+							<div>
+				                <h4>Camisa Azul Importada</h4>
+				                <p>Camisa azul importada com preço acessivel e com pano de qualidade</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 190,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-rosa.png" alt="Camisa rosa importada" />
+
+							<div>
+				                <h4>Camisa Azul Paraguaia</h4>
+				                <p>Camisa azul Paraguaia com preço acessivel e com pano de qualidade</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 210,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-azul.png" alt="Camisa azul nacional" />
+
+							<div>
+				                <h4>Camisa Azul Nacional</h4>
+				                <p>Camisa azul nacional com preço acessivel e bonita</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 90,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+
+					<div id="maisVendidos">
+						<h3 class="text-center">Mais Vendidos</h3>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-azul.png" alt="Camisa azul importada" />
+
+							<div>
+				                <h4>Camisa Azul Importada</h4>
+				                <p>Camisa azul importada com preço acessivel e com pano de qualidade</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 190,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-rosa.png" alt="Camisa rosa importada" />
+
+							<div>
+				                <h4>Camisa Azul Paraguaia</h4>
+				                <p>Camisa azul Paraguaia com preço acessivel e com pano de qualidade</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 210,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 text-center thumbnail wow fadeInUp" data-wow-delay="1s">
+						<figure>
+							<img src="img/camisa-azul.png" alt="Camisa azul nacional" />
+
+							<div>
+				                <h4>Camisa Azul Nacional</h4>
+				                <p>Camisa azul nacional com preço acessivel e bonita</p>
+				            </div>
+						</figure>
+
+						<div class="btn-group">
+							<a href="#" class="btn btn-default">R$ 90,00</a>
+					        <a href="#" class="btn btn-primary">
+					        	<span class="glyphicon glyphicon-shopping-cart"></span>
+					        	Comprar
+					        </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+	    <p>Rua July Danilenko, 111, Piraquara - PR</p>
+	    <p>Telefone: (41) 3333-1234 </p>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+            new WOW().init();
+    </script>
+</body>
+</html>
