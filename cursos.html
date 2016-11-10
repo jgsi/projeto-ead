@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Atual - Cursos Online</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<style type="text/css">
+    .negrito {
+      font-weight: bold;
+    }
+    @media (min-width: 769px) {
+      .btn-responsive {
+        padding: 15px 30px;
+        font-size:90%;
+        line-height: 1.2;
+      }
+    }
+		.navbar-header button {
+			color: #fff;
+		}
+		.fullscreen {
+	      width:100%;
+	  }
+	  main {
+      padding-top:50px;
+    }
+    .max-left {
+    	left: 0%;
+    	right: auto;
+    }
+    .max-right {
+    	left: auto;
+    	right: 0%;
+    }
+    .max-bottom {
+      bottom: 0;
+      top: auto;
+      padding-bottom: 5px;
+    }
+    footer {
+		background:#333;
+    color:#fff;
+    padding:20px 0;
+    text-align:center;
+		}
+		.texto-destaque {
+			color: #000;
+			line-height: : 1.1;
+			font-weight: bold;
+			font-size: 120%;
+		}
+		.titulo-destaque {
+			font-weight: 600;
+			font-family: Verdana, Arial,sans-serif;
+		}
+		.subtitulo {
+			font-weight: 400;
+			font-family: Verdana, Arial,sans-serif;
+		}
+		.simbolo-curso {
+			width: auto;
+			height: auto;
+			max-width: 200px;
+			max-height: 80px;
+		}
+		.grade-cursos {
+			margin-top: 10px;
+		}
+		.imagem-curso{
+			max-height: 120px;
+			height: auto;
+		}
+		.curso-box {
+			min-height: 300px;
+			height: auto;
+			padding-top: 18px;
+		}
+		.fundo-invertido{
+			background-color: #222;
+			color: #BBB;
+		}
+		.titulo-grade-destaque {
+			border-radius: 10px 10px 0 0;
+			clear: both;
+		}
+		.titulo-grade-destaque h3 {
+			margin-bottom: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+  			<div class="navbar-header">
+  				<a href="#home" class="navbar-brand">ATUAL</a>
+  				<button class="navbar-toggle" type="button"
+  				data-target=".navbar-collapse" data-toggle="collapse" >Menu</button>
+  			</div>
+  			<div class="collapse navbar-collapse">
+  				<ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                Cursos
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Área Administrativa</a></li>
+                <li><a href="#">Área Contábil</a></li>
+                <li><a href="#">Área Jurídica</a></li>
+              </ul>
+            </li>
+  					<li><a href="#consultoria">Consultoria</a></li>
+  					<li><a href="#sobreNos">Sobre nós</a></li>
+  				</ul>
+          <div class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="#login">Login</a></li>
+                <li><a href="#matricular">Matricule-se</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container-fluid">
+    <div class="row" >
+      <div id="todosCursos" class="jumbotron" >
+        <!-- class="texto-destaque fundo-invertido titulo-grade-destaque" -->
+        <h2 class="text-center">Conheça nossos cursos</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h3> Área Administrativa </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-4 text-justify" >
+            <figure>
+              <div>
+                <h4>Atendimento ao cliente com enfase em vendas</h4>
+                <p>Torne-se um vendedor preparado para o mercado de trabalho.</p>
+              </div>
+            </figure>
+
+            <div class="text-right">
+              <a href="#" class="btn btn-primary">
+                Ver detalhes
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4 text-justify">
+            <figure>
+              <div>
+                <h4>Assistente administrativo e departamento pessoal</h4>
+                <p>Torne-se um assistente administrativo preparado e capacitado com este curso.</p>
+              </div>
+            </figure>
+
+            <div class="text-right">
+              <a href="#" class="btn btn-primary">
+                Ver detalhes
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4 text-justify " >
+            <div>
+              <h4>Secretariado</h4>
+              <p>Torne-se um(a) secretário(a) pronto para o mercado de trabalho.</p>
+            </div>
+            <div class="text-right">
+              <a href="#" class="btn btn-primary">
+                Ver detalhes
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-4 text-justify">
+              <div>
+                <h4>Marketing pessoal</h4>
+                <p>Aprenda a fazer uma boa apresentação pessoal em entrevistas de emprego.</p>
+              </div>
+              <div class="text-right">
+                <a href="#" class="btn btn-primary">
+                  Ver detalhes
+                </a>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-4 text-justify">
+            <div>
+              <h4>Técnica de vendas</h4>
+              <p>Aprenda a fechar negócios e realizar vendas nesse curso.</p>
+            </div>
+            <div class="text-right">
+              <a href="#" class="btn btn-primary">
+                Ver detalhes
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 text-justify" >
+            <div>
+              <h4>Administração de condomínio</h4>
+              <p>Aprenda a arte da administração de condomínios nesse curso.</p>
+            </div>
+            <div class="text-right">
+              <a href="#" class="btn btn-primary">
+                Ver detalhes
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h3> Área Contábil </h3>
+      </div>
+
+      <div class="col-xs-12 col-md-4 text-justify">
+          <div>
+            <h4>Contabilidade</h4>
+            <p>Aprenda contabilidade na prática, preparando-se para o mercado de trabalho.</p>
+          </div>
+
+        <div class="text-right">
+          <a href="#" class="btn btn-primary">
+            Ver detalhes
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 text-justify">
+        <div>
+          <h4>Assistente contábil</h4>
+          <p>Aprenda contabilidade na prática, preparando-se para o mercado de trabalho.</p>
+        </div>
+
+        <div class="text-right">
+          <a href="#" class="btn btn-primary">
+            Ver detalhes
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 text-justify">
+        <div>
+          <h4>Escrituração contábil</h4>
+          <p>Aprenda contabilidade na prática, preparando-se para o mercado de trabalho.</p>
+        </div>
+
+        <div class="text-right">
+          <a href="#" class="btn btn-primary">
+            Ver detalhes
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h3> Área Jurídica </h3>
+    </div>
+
+    <div class="col-xs-12 col-md-4 text-justify">
+        <div>
+          <h4>Direito Previdenciário</h4>
+          <p>Aprenda direito previdenciário na prática, preparando-se para o mercado de trabalho.</p>
+        </div>
+
+      <div class="text-right">
+        <a href="#" class="btn btn-primary">
+          Ver detalhes
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 text-justify">
+      <div>
+        <h4>Direito Administrativo</h4>
+        <p>Aprenda direito administrativo na prática, preparando-se para o mercado de trabalho.</p>
+      </div>
+
+      <div class="text-right">
+        <a href="#" class="btn btn-primary">
+          Ver detalhes
+        </a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 text-justify">
+      <div>
+        <h4>Direito Trabalhista</h4>
+        <p>Aprenda direito trabalhista na prática, preparando-se para o mercado de trabalho.</p>
+      </div>
+
+      <div class="text-right">
+        <a href="#" class="btn btn-primary">
+          Ver detalhes
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</main>
